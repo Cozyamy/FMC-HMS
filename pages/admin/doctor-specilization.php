@@ -9,14 +9,14 @@ if(strlen($_SESSION['id']==0)) {
 if(isset($_POST['submit']))
 {
 $doctorspecilization=$_POST['doctorspecilization'];
-$sql=mysqli_query($con,"insert into doctorSpecilization(specilization) values('$doctorspecilization')");
+$sql=mysqli_query($con,"insert into doctorspecilization(specilization) values('$doctorspecilization')");
 $_SESSION['msg']="Doctor Specialization added successfully !!";
 }
 //Code Deletion
 if(isset($_GET['del']))
 {
 $sid=$_GET['id'];	
-mysqli_query($con,"delete from doctorSpecilization where id = '$sid'");
+mysqli_query($con,"delete from doctorspecilization where id = '$sid'");
 $_SESSION['msg']="data deleted !!";
 }
 ?>
@@ -140,6 +140,7 @@ $_SESSION['msg']="data deleted !!";
 		<section>
 			<div style="overflow-x:auto; table-layout: fixed; width: 100%;">
 			<table class="table table-hover" id="sample-table-1">
+				<caption>Manage Doctor Specialization</caption>
 				<thead>
 					<tr>
 						<th class="center">#</th>
@@ -151,11 +152,11 @@ $_SESSION['msg']="data deleted !!";
 				</thead>
 				<tbody>
 					<?php
-					$sql=mysqli_query($con,"select * from doctorSpecilization");
+					$sql=mysqli_query($con,"select * from doctorspecilization");
 					$cnt=1;
 					while($row=mysqli_fetch_array($sql))
-						{
-						?>
+					{
+					?>
 						<tr>
 							<td class="center"><?php echo $cnt;?>.</td>
 							<td class="hidden-xs"><?php echo $row['specilization'];?></td>
@@ -170,9 +171,9 @@ $_SESSION['msg']="data deleted !!";
 									<p class="cancel"></p>
 								</a>
 								</div>
-								<?php
+								<?php 
 								$cnt=$cnt+1;
-							}?>
+							 	}?>
 						</td>
 					</tr>
 				</tbody>
