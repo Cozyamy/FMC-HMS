@@ -10,7 +10,7 @@
 ## USEFUL LINKS
  - [Product Design (UI/UX) URL](https://www.figma.com/file/RrOr7OfL68cQneS2xd430I/FMC-HMS?node-id=5%3A2539&t=RrD2rwItFnh5LWV4-1)
 
- - [Live Site URL](https://github.com/Cozyamy/FMC-HMS.git)
+ - [Live Site URL](https://fmc-hms.000webhostapp.com)
 
 ## FEATURES OF FMC-HMS
 This serves as a website for users to know more about the hospital, the recent news/events, top managements, departments, social handles and contact the hospital right from the website
@@ -75,6 +75,6 @@ http://localhost/FMC-HMS
 ## CONCLUSION 
 	This project was carried out in partial fulfillment for the certification as a sofware engineer in ALX_Africa. 
 
-	_All Rights reserved 2023_
-	_Amarachi Iheakam_
+	All Rights reserved 2023
+	Amarachi Iheakam
 	***Certified Software Engineer***

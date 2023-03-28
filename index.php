@@ -83,14 +83,14 @@ echo "<script>window.location.href ='index.php'</script>";
 					<p>Managing Director</p>
 				</div>
 				<div>
-					<img src="./images/Top img.svg">
-					<h3>Dr. Emeka Philip</h3>
-					<p>Managing Director</p>
+					<img src="./images/Tops.svg">
+					<h3>Dr. Stanley Williams</h3>
+					<p>Head of CMAC</p>
 				</div>
 				<div>
-					<img src="./images/Top img.svg">
-					<h3>Dr. Emeka Philip</h3>
-					<p>Managing Director</p>
+					<img src="./images/Topss.svg">
+					<h3>Dr. Bamide Jones</h3>
+					<p>Human Resources Manager</p>
 				</div>
 			</article>
 			<a href="about.html">View More</a>
